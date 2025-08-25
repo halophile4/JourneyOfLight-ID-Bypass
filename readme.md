@@ -15,8 +15,8 @@ By using this repository, you acknowledge that it is your responsibility to use 
 
 
 ## Prerequisites:
-Python 3 https://www.python.org/downloads/<br>
-Git https://git-scm.com/
+Python 3 (https://www.python.org/downloads/)<br>
+Git (https://git-scm.com/)
 
 ## Setup:
 
@@ -28,7 +28,8 @@ Git https://git-scm.com/
 
 2. Install dependencies
 
-   - This project uses `mitmproxy`. <br>Before installing, create a new virtual environment `python3 -m venv env`<br>Install mitmproxy using `pip`:<br>`pip install mitmproxy`<br><br>
+- Before installing, create a new virtual environment `python3 -m venv env`
+- Install mitmproxy using `pip`:<br>`pip install mitmproxy`
 
 3. Run project
 
@@ -40,17 +41,18 @@ Git https://git-scm.com/
 - On Linux, run this in a new terminal/command prompt: `ifconfig`<br>Look for your active network interface (usually en0 or wlan0) and the line inet. Take note of it, as it's your IP.
 - On Mac, run this in a new Terminal: `ipconfig getifaddr en0`<br>Take note what your terminal outputs, it's your IP.
 - Example of a local IP: `192.168.1.42`
-<br>
+
 5. Configure your device to use proxy<br>Note: Before enabling your proxy, open the app and let it show the login page, then FULLY close the app. This ensures the game is fully updated, as updates do not download when connected to a proxy.
 
 - iOS:<br>Open Settings -> Wi-Fi -> [i] next to your current connection -> HTTP Proxy: Configure Proxy -> Manual
 - Android:<br>Settings -> Network & internet -> Wi-Fi, select your connected network, scroll to Advanced options, tap Proxy, choose Manual
 <br><br>
 - Host: The IP you noted in step 4.
-- Port: 8080
+- Port: `8080`
 
 6. Download mitmproxy certificate
 - Visit http://mitm.it in a browser on the same device to install the mitmproxy certificate.
+  - If you get a message saying traffic is not passing through mitmproxy, you have misconfigured the proxy. Make sure you got the correct local IP in Step 4 and didn't mistype it into your proxy settings.
 - iOS:<br>Open the certificate file, and the installation should trigger. Then, go to Settings > General > About > Certificate Trust Settings and enable full trust for the `mitmproxy` certificate.
 - Android:<br>Open Settings, go to Security > Encryption & credentials, tap Install a certificate, select the file type and your certificate file, and press OK. If you're asked for a name, simply enter `mitmproxy`
 7. Done
@@ -60,6 +62,7 @@ Git https://git-scm.com/
 ### Tips
 If you get a notice saying you're a minor and can't play for more than an hour a day, do not tap OK and just wait until the game finishes loading. From my experience, this limit does not apply when using this.<br><br>
 Only connect to the proxy when you are playing the game. Disconnect it as soon as you're finished, as a lot of online functionality in other apps do not work when connected to a proxy<br><br>
-If you don't see anything in the terminal happening when you open the game even *after* it says the proxy is listening, you likely got something wrong from step 4-7 (usually 4).<br><br>If you use Android and one of the Android steps don't align with what you see, just google "how to [blank] on [phone manufacturer]". Some phones have their menus set up different from everyone elses.
+If you don't see anything in the terminal happening when you open the game even *after* it says the proxy is listening, you likely got something wrong from step 4-7 (usually 4).<br><br>If you use Android and one of the Android steps don't align with what you see, just google "how to [blank] on [phone manufacturer]". Some phones have their menus set up different from everyone else's.<br><br>
+If you get an error saying `python3` does not exist and you use Windows, use `python` instead. The `python3` command is for Linux/macOS while `python` is for Windows.
 
 <h3>If you have any issues, please do not hesitate to add me on Discord. I'm always happy to help!</h3>https://discordapp.com/users/520780595090030606
