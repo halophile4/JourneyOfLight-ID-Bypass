@@ -28,7 +28,7 @@ Git https://git-scm.com/
 
 2. Install dependencies
 
-- This project uses `mitmproxy`. Install it using `pip`:<br>`pip install mitmproxy`
+   - This project uses `mitmproxy`. <br>Before installing, create a new virtual environment `python3 -m venv env`<br>Install mitmproxy using `pip`:<br>`pip install mitmproxy`<br><br>
 
 3. Run project
 
@@ -50,7 +50,7 @@ Git https://git-scm.com/
 - Port: 8080
 
 6. Download mitmproxy certificate
-- Visit http://mitm.itin a browser on the same device to install the mitmproxy certificate.
+- Visit http://mitm.it in a browser on the same device to install the mitmproxy certificate.
 - iOS:<br>Open the certificate file, and the installation should trigger. Then, go to Settings > General > About > Certificate Trust Settings and enable full trust for the `mitmproxy` certificate.
 - Android:<br>Open Settings, go to Security > Encryption & credentials, tap Install a certificate, select the file type and your certificate file, and press OK. If you're asked for a name, simply enter `mitmproxy`
 7. Done
