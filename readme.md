@@ -46,7 +46,7 @@ Git https://git-scm.com/
 - iOS:<br>Open Settings -> Wi-Fi -> [i] next to your current connection -> HTTP Proxy: Configure Proxy -> Manual
 - Android:<br>Settings -> Network & internet -> Wi-Fi, select your connected network, scroll to Advanced options, tap Proxy, choose Manual
 <br><br>
-- Host: The IP you noted in step 3.
+- Host: The IP you noted in step 4.
 - Port: 8080
 
 6. Download mitmproxy certificate
