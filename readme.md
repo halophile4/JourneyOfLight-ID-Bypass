@@ -60,6 +60,6 @@ Git https://git-scm.com/
 ### Tips
 If you get a notice saying you're a minor and can't play for more than an hour a day, do not tap OK and just wait until the game finishes loading. From my experience, this limit does not apply when using this.<br><br>
 Only connect to the proxy when you are playing the game. Disconnect it as soon as you're finished, as a lot of online functionality in other apps do not work when connected to a proxy<br><br>
-If you don't see anything in the terminal happening when you open the game even *after* it says the proxy is listening, you likely got something wrong from step 4-7 (usually 4).<br>
+If you don't see anything in the terminal happening when you open the game even *after* it says the proxy is listening, you likely got something wrong from step 4-7 (usually 4).<br><br>If you use Android and one of the Android steps don't align with what you see, just google "how to [blank] on [phone manufacturer]". Some phones have their menus set up different from everyone elses.
 
-<h3>If you have any issues, please do not hesitate to add me on [Discord.](https://discordapp.com/users/520780595090030606) I'm always happy to help!</h3>
+<h3>If you have any issues, please do not hesitate to add me on Discord. I'm always happy to help!</h3>https://discordapp.com/users/520780595090030606
